@@ -1,0 +1,1 @@
+export 'package:omni_sender/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
