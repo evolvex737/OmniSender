@@ -28,11 +28,25 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="manifest" href="manifest.json">
 
   <title>omni_sender</title>
-  <link rel="manifest" href="manifest.json">
+  <!-- External Splash CSS -->
+  <link rel="stylesheet" href="splash.css" />
 </head>
 <body>
+  <!-- Loader yang akan muncul sebelum flutter -->
+  <div id="loader">
+    <img src="evo.png" alt="App logo" class="logo" />
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
   <script src="flutter_bootstrap.js" async></script>
+  <!-- External Splash JS -->
+  <script src="splash.js"></script>
 </body>
 </html>

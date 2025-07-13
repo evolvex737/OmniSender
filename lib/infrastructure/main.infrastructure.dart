@@ -1,0 +1,1 @@
+export 'package:omni_sender/infrastructure/theme/main.theme.dart';

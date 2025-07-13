@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:omni_sender/infrastructure/main.infrastructure.dart';
 
 import 'infrastructure/navigation/navigation.dart';
 import 'infrastructure/navigation/routes.dart';
@@ -17,8 +18,11 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      darkTheme: evolvexDarkTheme,
+      themeMode: ThemeMode.system, // atau ThemeMode.dark
       initialRoute: initialRoute,
       getPages: Nav.routes,
+      theme: evolvexTheme,
     );
   }
 }
